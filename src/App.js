@@ -8,7 +8,9 @@ const emojiDictionary = {
   "❤️": "Heart",
   "🔥": "Fire",
   "🥺": "Pleading",
-  "👍": "Thumbs Up"
+  "👍": "Thumbs Up",
+  "🤓": "nerd",
+  "🤗": "Hugging"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);

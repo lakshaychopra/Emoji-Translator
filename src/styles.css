@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 .App {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
+  background-color: #81f4e1;
+  color: #246a73;
 }
 
 input {
   padding: 1rem;
   width: 80%;
+  background-color: #81f4e1;
+  border-color: 10px solid white;
 }
