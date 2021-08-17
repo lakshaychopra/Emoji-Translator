@@ -10,7 +10,9 @@ const emojiDictionary = {
   "🥺": "Pleading",
   "👍": "Thumbs Up",
   "🤓": "nerd",
-  "🤗": "Hugging"
+  "🤗": "Hugging",
+  "😴": "Sleeping",
+  "😌": "Relieved"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
@@ -34,7 +36,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Inside Out</h1>
+      <h1>Inside Out - Emoji Translation</h1>
       <input onChange={inputChangeHandler}></input>
       <h2> {meaning} </h2>
       <h3>Emojis we know</h3>
